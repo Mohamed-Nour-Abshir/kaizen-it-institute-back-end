@@ -191,7 +191,7 @@
       <div class="our-team">
          <div class="slide">
              <div class="image">
-                 <img src="images/fitah.jpeg" alt="">
+                 <img src="{{asset('assets/images/ceo.jpg')}}" alt="">
                  <div class="share">
                    <div><a href="#">Web Desinger</a></div>
                    <div><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p></div>
@@ -204,7 +204,7 @@
          </div>
          <div class="slide">
              <div class="image">
-                 <img src="images/fitah.jpeg" alt="">
+                 <img src="{{asset('assets/images/owner.jpg')}}" alt="">
                  <div class="share">
                    <div><a href="#">Web Desinger</a></div>
                    <div><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p></div>
@@ -217,7 +217,7 @@
          </div>
          <div class="slide">
              <div class="image">
-                 <img src="images/fitah.jpeg" alt="">
+                 <img src="{{asset('assets/images/hasan.jpg')}}" alt="">
                  <div class="share">
                    <div><a href="#">Web Desinger</a></div>
                    <div><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p></div>
@@ -230,7 +230,7 @@
          </div>
          <div class="slide">
              <div class="image">
-                 <img src="images/fitah.jpeg" alt="">
+                 <img src="{{asset('assets/images/fitah.jpeg')}}" alt="">
                  <div class="share">
                    <div><a href="#">Web Desinger</a></div>
                    <div><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p></div>
@@ -243,7 +243,7 @@
          </div>
          <div class="slide">
              <div class="image">
-                 <img src="images/fitah.jpeg" alt="">
+                 <img src="{{asset('assets/images/ceo.jpg')}}" alt="">
                  <div class="share">
                    <div><a href="#">Web Desinger</a></div>
                    <div><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p></div>

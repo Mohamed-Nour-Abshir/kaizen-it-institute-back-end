@@ -18,6 +18,7 @@ use App\Http\Livewire\ContactComponent;
 use App\Http\Livewire\CoursesComponent;
 use App\Http\Livewire\FreelancingComponent;
 use App\Http\Livewire\HomeComponent;
+use App\Http\Livewire\OurTeamComponent;
 use App\Http\Livewire\SoftwareServicesComponent;
 use App\Http\Livewire\SuccessStoryComponent;
 use Illuminate\Support\Facades\Route;
@@ -54,6 +55,7 @@ Route::get('/freelancing',FreelancingComponent::class);
 Route::get('/success-story',SuccessStoryComponent::class);
 Route::get('/contact',ContactComponent::class);
 Route::get('/courses',CoursesComponent::class);
+Route::get('/our-team',OurTeamComponent::class);
 
 
 Route::middleware(['auth:sanctum','verified','authadmin'])->group(function(){

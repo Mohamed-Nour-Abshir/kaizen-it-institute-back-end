@@ -50,7 +50,7 @@
       <a href="about">about us</a>
       <a href="software-services">software service</a>
       <a href="freelancing">Freelancing</a>
-      <a href="freelancing">Our Team</a>
+      <a href="our-team">Our Team</a>
       <a href="success-story">success story</a>
       <a href="contact">contact</a>
       <a href="courses" class="btn btn-success courses-btn"><i class="fas fa-book"></i> courses <i class="fas fa-chevron-down"></i></a>
