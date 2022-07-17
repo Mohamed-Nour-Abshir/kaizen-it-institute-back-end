@@ -1711,3 +1711,94 @@ section {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* ----------team----------------- */
+.teachers .slide .image .share p{
+  color: white;
+  font-size: 10px;
+  letter-spacing: .15rem;
+}
+.our-team {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(3, minmax(16rem, 1fr));
+  gap: 2rem;
+
+}
+.our-team .slide {
+  text-align: center;
+}
+
+.our-team .slide:hover .image img {
+  background: #0eb582;
+}
+
+.our-team .slide:hover .image .share {
+  bottom: 0;
+}
+
+.our-team .slide .image {
+  position: relative;
+  overflow: hidden;
+}
+
+.our-team .slide .image img {
+  background: #f0fdfa;
+  width: 100%;
+}
+
+.our-team .slide .image .share {
+  position: absolute;
+  bottom: -20rem;
+  left: 0;
+  right: 0;
+  background: rgba(70 122 71 / 80%);
+  padding: 2rem;
+}
+
+.our-team .slide .image .share a {
+  font-size: 3rem;
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.our-team .slide .image .share a:hover {
+  color: #00fc3b;
+}
+
+.our-team .slide .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-team .slide .content h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.our-team .slide .content span {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+}
+@media(max-width: 950px){
+  .our-team {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+  }
+}
