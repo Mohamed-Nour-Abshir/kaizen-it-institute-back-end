@@ -57,6 +57,16 @@
                         </ul>
                     </li>
 
+
+                    {{-- manage members --}}
+                    <h3 class="menu-title text-success">Manage Team members</h3>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-user"></i>Team Members</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="fa fa-user text-info"></i><a href="{{route('admin.teamMembers')}}">All Team members</a></li>
+                        </ul>
+                    </li>
+
                     {{-- manage home-slider  --}}
                     <h3 class="menu-title text-success">Admin Manage Home Page</h3>
                     <li class="menu-item-has-children dropdown">

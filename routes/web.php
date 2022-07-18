@@ -3,14 +3,17 @@
 use App\Http\Livewire\AboutComponent;
 use App\Http\Livewire\Admin\AdminAddHomeSlider;
 use App\Http\Livewire\Admin\AdminAddPopularCourse;
+use App\Http\Livewire\Admin\AdminAddTeamMember;
 use App\Http\Livewire\Admin\AdminDashboard;
 use App\Http\Livewire\Admin\AdminDeleteHomeSlider;
 use App\Http\Livewire\Admin\AdminDeletePopularCourses;
 use App\Http\Livewire\Admin\AdminDeleteUsers;
 use App\Http\Livewire\Admin\AdminEditHomeSlider;
 use App\Http\Livewire\Admin\AdminEditPopularCourses;
+use App\Http\Livewire\Admin\AdminEditTeamMember;
 use App\Http\Livewire\Admin\AdminEditUsers;
 use App\Http\Livewire\Admin\AdminShowUsers;
+use App\Http\Livewire\Admin\AdminTeamMembers;
 use App\Http\Livewire\Admin\EditHomeSliderForm;
 use App\Http\Livewire\Admin\EditPopularCourseForm;
 use App\Http\Livewire\Admin\EditUser;
@@ -79,6 +82,13 @@ Route::middleware(['auth:sanctum','verified','authadmin'])->group(function(){
     Route::get('/admin/admin-edit-popular-course-from-home-page',AdminEditPopularCourses::class)->name('admin.editPopularCourses');
     Route::get('/admin/admin-edit-popular-course-from-home-page/{p_course_id}',EditPopularCourseForm::class)->name('admin.editpopularcourse'); 
     Route::get('/admin/admin-delete-popular-course-from-home-page',AdminDeletePopularCourses::class)->name('admin.deletePopularCourse');
+
+    //Manage Team Members
+    Route::get('/admin/team-members',AdminTeamMembers::class)->name('admin.teamMembers');
+    Route::get('/admin/add-team-members',AdminAddTeamMember::class)->name('admin.addMember');
+    Route::get('/admin/edit-team-members/{id}',AdminEditTeamMember::class)->name('admin.editMember');
+
+
 });
 
 
